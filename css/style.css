@@ -1,5 +1,7 @@
+@import url('./font.css');
+
 * {
-  font-family: "Presentation", sans-serif;
+  font-family: 'Presentation', sans-serif;
   box-sizing: border-box;
 }
 
