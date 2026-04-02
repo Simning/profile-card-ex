@@ -1,19 +1,92 @@
-* {font-family: 'Presentation', sans-serif; box-sizing: border-box;}
-body {}
-.container {width: 100%; padding: 100px; background-color: #f8f8f8; overflow-x: hidden;}
+* {
+  font-family: "Presentation", sans-serif;
+  box-sizing: border-box;
+}
 
-.profile-card {width: 320px; overflow: hidden; margin: 0 auto; padding: 8px; border-radius: 40px; background-color: #fff; box-shadow: 0 8px 16px rgba(0, 0, 0, .08);}
-.profile-card .profile-card__thumb {border-radius: 32px;}
-.profile-card .profile-card__thumb > img {width: 100%;}
+.container {
+  width: 100%;
+  padding: 100px;
+  background-color: #f8f8f8;
+  overflow-x: hidden;
+}
 
-.profile-card .profile-card__cont {padding: 20px;}
-.profile-card .profile-card__cont .profile-card__head {}
-.profile-card .profile-card__cont .profile-card__head .name {font-size: 20px; font-weight: 700; color: #000; line-height: 1.4;}
-.profile-card .profile-card__cont .profile-card__head .role {margin: 2px 0 0; font-size: 12px; font-weight: 500; color: #767676; line-height: 1.4;}
+.profile-card {
+  width: 320px;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 8px;
+  border-radius: 40px;
+  background-color: #fff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+}
+.profile-card .profile-card__thumb {
+  border-radius: 32px;
+}
+.profile-card .profile-card__thumb > img {
+  width: 100%;
+}
 
-.profile-card .profile-card__cont .profile-card__desc {margin: 12px 0 0; font-size: 14px; font-weight: 400; color: #444; line-height: 1.5;}
+.profile-card .profile-card__cont {
+  padding: 20px;
+}
+.profile-card .profile-card__cont .profile-card__head {
+}
+.profile-card .profile-card__cont .profile-card__head .name {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+  line-height: 1.4;
+}
+.profile-card .profile-card__cont .profile-card__head .role {
+  margin: 2px 0 0;
+  font-size: 12px;
+  font-weight: 500;
+  color: #767676;
+  line-height: 1.4;
+}
+.profile-card .profile-card__cont .profile-card__desc {
+  margin: 12px 0 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: #444;
+  line-height: 1.5;
+}
+.profile-card .profile-card__cont .profile-card__tags {
+  display: flex;
+  align-items: center;
+  margin: 16px 0 0;
+}
+.profile-card .profile-card__cont .profile-card__tags .tag {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 12px;
+  font-size: 13px;
+  font-weight: 600;
+  color: #000;
+  line-height: 1.3;
+  background-color: #e4fe89;
+  border-radius: 9999px;
+}
+.profile-card .profile-card__cont .profile-card__cta {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 40px;
+  margin: 32px 0 0;
+  padding: 4px 8px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1;
+  background-color: #000;
+  border-radius: 9999px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
 
-.profile-card .profile-card__cont .profile-card__tags {display: flex; align-items: center; margin: 16px 0 0;}
-.profile-card .profile-card__cont .profile-card__tags .tag {display: inline-flex; justify-content: center; align-items: center; padding: 4px 12px; font-size: 13px; font-weight: 600; color: #000; line-height: 1.3;  background-color: #e4fe89; border-radius: 9999px;}
-
-.profile-card .profile-card__cont .profile-card__cta {display: inline-flex; justify-content: center; align-items: center; width: 100%; height: 40px; margin: 32px 0 0; padding: 4px 8px; font-size: 14px; font-weight: 600; color: #fff; line-height: 1; background-color: #000; border-radius: 9999px;}
+/* 마우스 액션 */
+.profile-card .profile-card__cont .profile-card__cta:hover {
+  background-color: #666;
+}
