@@ -1,17 +1,17 @@
-@import url('./font.css');
+@import url("./font.css");
 
 * {
-  font-family: 'Presentation', sans-serif;
+  font-family: "Presentation", sans-serif;
   box-sizing: border-box;
 }
-
+body {
+  background-color: #f8f8f8;
+  overflow: hidden;
+}
 .container {
   width: 100%;
   padding: 100px;
-  background-color: #f8f8f8;
-  overflow-x: hidden;
 }
-
 .profile-card {
   width: 320px;
   overflow: hidden;
@@ -30,8 +30,6 @@
 
 .profile-card .profile-card__cont {
   padding: 20px;
-}
-.profile-card .profile-card__cont .profile-card__head {
 }
 .profile-card .profile-card__cont .profile-card__head .name {
   font-size: 20px;
